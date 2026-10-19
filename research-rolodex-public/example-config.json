@@ -1,0 +1,27 @@
+{
+  "_comment": "Run 'python3 append-slide.py config.json' to add this paper to your deck.",
+  "_layouts": "nofig | wide | right | figs_only",
+
+  "deck_path": "/path/to/Research Rolodex/Research Rolodex.pptx",
+  "theme": "Machine Learning",
+  "layout": "nofig",
+  "footer_text": "",
+
+  "paper": {
+    "title":    "Automated Surgical Phase Recognition Using Temporal Convolutional Networks",
+    "date":     "Mar 2023",
+    "authors":  "Smith J, Jones A, Williams B, et al.",
+    "doi":      "10.1007/s00464-023-09876-5",
+    "citation": "Surg Endosc 2023;37(4):2812–2821",
+    "rating":   8,
+
+    "body": [
+      {"label": "Problem",    "text": "Automated phase recognition in laparoscopic cholecystectomy remains error-prone under occlusion and instrument changes."},
+      {"label": "Methods",    "text": "Temporal CNN trained on 80 annotated cholecystectomy videos; tested on 20 held-out cases."},
+      {"label": "Results",    "text": "Mean phase accuracy 91.3% (vs. 85.2% for prior LSTM baseline). Weakest on critical view of safety phase (84.1%)."},
+      {"label": "Conclusion", "text": "Temporal CNNs outperform recurrent models for surgical phase recognition at moderate dataset scale."}
+    ],
+
+    "notes": "Upload Date: Mar 2023\n\nSTUDY: model development/validation, n=100 videos, Level 3\n\nMy Notes:\n• \n\nHighlights:\n• Mean phase accuracy 91.3% vs. 85.2% for prior LSTM baseline\n• Weakest on critical view of safety phase (84.1%)"
+  }
+}
